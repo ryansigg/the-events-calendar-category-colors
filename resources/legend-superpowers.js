@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
 		legendEntries = $("ul#legend").find("li");
 		status = {
 			allEntries: $("#tribe-events-content").find("div.hentry.type-tribe_events"),
-			opacity: 0.25,
+			opacity: 0,
 			selected: false,
 			speed: 500,
 			working: false
